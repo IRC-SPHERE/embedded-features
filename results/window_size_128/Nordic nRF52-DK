@@ -1,0 +1,37 @@
+Feature: mean (f)           Time: 24000 usec per 15000 samples
+Feature: mean (f, p)        Time: 62000 usec per 15000 samples
+Feature: mean (i)           Time: 20320 usec per 15000 samples
+Feature: mean (i, p)        Time: 46640 usec per 15000 samples
+Feature: quartile_25 (i)    Time: 51500 usec per 15000 samples
+Feature: quartile_25 (i, p) Time: 203900 usec per 15000 samples
+Feature: median (i)         Time: 55500 usec per 15000 samples
+Feature: median (i, p)      Time: 203900 usec per 15000 samples
+Feature: quartile_75 (i)    Time: 55500 usec per 15000 samples
+Feature: quartile_75 (i, p) Time: 203900 usec per 15000 samples
+Feature: quartiles (i, p)   Time: 192900 usec per 15000 samples
+Feature: min (i)            Time: 11180 usec per 15000 samples
+Feature: min (i, p)         Time: 58980 usec per 15000 samples
+Feature: max (i)            Time: 11250 usec per 15000 samples
+Feature: max (i, p)         Time: 58910 usec per 15000 samples
+Feature: variance (i)       Time: 27300 usec per 15000 samples
+Feature: variance (i, p)    Time: 57000 usec per 15000 samples
+Feature: std (f)            Time: 399000 usec per 15000 samples
+Feature: std (f, p)         Time: 86000 usec per 15000 samples
+Feature: magnitude^2 (i)    Time: 4450 usec per 15000 samples
+Feature: magnitude (f)      Time: 133000 usec per 15000 samples
+Feature: 0-crossings (i)    Time: 33600 usec per 15000 samples
+Feature: 0-crossings (i, p) Time: 76600 usec per 15000 samples
+Feature: entropy (f)        Time: 46000 usec per 15000 samples
+Feature: entropy (f, p)     Time: 274000 usec per 15000 samples
+Feature: histogram (i, p)   Time: 25000 usec per 15000 samples
+Feature: spectral density (i)       Time: 336000 usec per 15000 samples
+Feature: spectral density (f)       Time: 227000 usec per 15000 samples
+Feature: spectral maxima (i)       Time: 2086000 usec per 15000 samples
+Feature: spectral maxima (f)       Time: 1343000 usec per 15000 samples
+Feature: spectral centroid (f)     Time: 2735000 usec per 15000 samples
+Feature: spectral flux (f)         Time: 2023000 usec per 15000 samples
+Feature: spectral entropy (f)      Time: 24383000 usec per 15000 samples
+Feature: spectral magn. area (f)   Time: 1812000 usec per 15000 samples
+Feature: spectral magn. area^2 (i) Time: 2102000 usec per 15000 samples
+Feature: spectral histogram (i)    Time: 2156000 usec per 15000 samples
+Feature: spectral histogram (f)    Time: 1414000 usec per 15000 samples

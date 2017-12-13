@@ -1,0 +1,26 @@
+Feature: mean (f)           Time: 11609000 usec per 7500 samples
+Feature: mean (f, p)        Time: 23133000 usec per 7500 samples
+Feature: mean (i)           Time: 164800 usec per 7500 samples
+Feature: mean (i, p)        Time: 281200 usec per 7500 samples
+Feature: quartile_25 (i)    Time: 372700 usec per 7500 samples
+Feature: quartile_25 (i, p) Time: 621100 usec per 7500 samples
+Feature: median (i)         Time: 226600 usec per 7500 samples
+Feature: median (i, p)      Time: 621100 usec per 7500 samples
+Feature: quartile_75 (i)    Time: 389000 usec per 7500 samples
+Feature: quartile_75 (i, p) Time: 621100 usec per 7500 samples
+Feature: quartiles (i, p)   Time: 760100 usec per 7500 samples
+Feature: min (i)            Time: 68000 usec per 7500 samples
+Feature: min (i, p)         Time: 226500 usec per 7500 samples
+Feature: max (i)            Time: 68000 usec per 7500 samples
+Feature: max (i, p)         Time: 226500 usec per 7500 samples
+Feature: variance (i)       Time: 460200 usec per 7500 samples
+Feature: variance (i, p)    Time: 693800 usec per 7500 samples
+Feature: std (f)            Time: 4172000 usec per 7500 samples
+Feature: std (f, p)         Time: 875000 usec per 7500 samples
+Feature: magnitude^2 (i)    Time: 84400 usec per 7500 samples
+Feature: magnitude (f)      Time: 1328000 usec per 7500 samples
+Feature: 0-crossings (i)    Time: 107000 usec per 7500 samples
+Feature: 0-crossings (i, p) Time: 241400 usec per 7500 samples
+Feature: entropy (f)        Time: 5937000 usec per 7500 samples
+Feature: entropy (f, p)     Time: 14899000 usec per 7500 samples
+Feature: histogram (i, p)   Time: 64100 usec per 7500 samples

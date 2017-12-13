@@ -1,0 +1,4 @@
+loadfile /opt/nordic_sdk/components/softdevice/s1xx_iot/s1xx-iot-prototype3_nrf52_softdevice.hex
+r
+g
+q
