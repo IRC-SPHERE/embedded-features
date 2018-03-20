@@ -312,7 +312,7 @@ void feature_std_axis(int axis)
 
         int32_t avg = sum / TIME_WINDOW_SIZE;
         int32_t squared_avg = squared_sum / TIME_WINDOW_SIZE;
-        OUTPUT_F(tsqrtf(squared_avg - avg), result_f.v[axis]);
+        OUTPUT_F(tsqrtf(squared_avg - avg * avg), result_f.v[axis]);
         LOG("\n");
     }
 }
