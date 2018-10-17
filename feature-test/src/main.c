@@ -141,11 +141,6 @@ const test_t tests[] =
 {
 //    { "memory access     ", feature_memory_access, VERY_FAST},
 
-    { "mean (f)          ", feature_mean_f, MODERATE },
-    { "mean (f, p)       ", feature_mean_periodic_f, MODERATE },
-    { "magnitude (f)     ", feature_magnitude_f, MODERATE },
-        
-#if 0
     // Time domain features
     { "mean (f)          ", feature_mean_f, MODERATE },
     { "mean (f, p)       ", feature_mean_periodic_f, MODERATE },
@@ -173,9 +168,7 @@ const test_t tests[] =
     { "entropy (f)       ", feature_entropy_f, MODERATE },
     { "entropy (f, p)    ", feature_entropy_periodic_f, MODERATE },
     { "histogram (i, p)  ", feature_histogram_periodic, FAST },
-#endif
 
-#if 0
 #ifndef CONTIKI_TARGET_Z1
     // Frequency domain features
     // All these features are periodic (calculated once per second)
@@ -191,7 +184,6 @@ const test_t tests[] =
     { "spectral histogram (i)   ", feature_spectral_histogram_i, MODERATE },
     { "spectral histogram (f)   ", feature_spectral_histogram_f, MODERATE },
 #endif // CONTIKI_TARGET_Z1
-#endif
 };
 
 // -----------------------------------------------------------

@@ -177,7 +177,7 @@ def initialize():
     global features
     features = []
 
-    if False:
+    if True:
         # nonperiodic features
         add_feature(Feature("mean (f)", time_axis_conversion_function))
         add_feature(Feature("mean (i)", time_axis_conversion_function))
